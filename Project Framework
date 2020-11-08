@@ -1,0 +1,207 @@
+Requirements: Must/Should/Could  (Mandatory/Optional/Nice to Have)
+
+First we need a set of Requirements for SOVRINTown eVoting Module , so here goes...
+
+           Targeted Goals & Stated Benefits: The SOVRINTown eVoter 'Stakeholder' Set
+
+                   For the eVoter: Fast, Convenient, Secure with Privacy Protection, Fast Immediate Progress & Final Results
+
+                          Mobile and Desktop Access
+
+                          Polling Booth Access
+
+                   For the Public Service
+
+                          Observation
+
+                           Summary Result Certification
+
+                                   Multi Sig Support (Appointed versus elected Public Servants)
+
+                    For the Political Service
+
+                                   Observation
+
+                                   Reporting
+
+                    For the eVoter Service Operators
+
+                              From the Cloud
+
+                              From the Colo
+
+                    For the Legislative Branch
+
+                            Smart Contract Creation
+
+                                       Collaborative
+
+                                        eVoting Epoch
+
+                           Licensing:  100% Open Source  Terms of Use , Modification under the BSD License
+
+                           Dispute Settlement Mechanism: Common Law Only
+
+                                         Between Human Authors & Users, Developers, Supporters of the SOVRINTown Evoting System Code
+
+                                         Human Juror Decisions presiding under a Human Judge referencing Common Law Precedents in Canada                                 
+
+
+
+
+            General Requirements:
+
+                    Operating:
+
+                            Developer Experimental Network
+
+                            Development Test & Release Management Platform:
+
+                            Development Reference Platform- Bug Validation, NFR & CR Trials
+
+                            Cloud Services (AMZ , G, Azure)
+
+                                     In Cloud operation of Modified  PermaNodes
+
+                                     Cloud Access from a DC or Colo by Hornet Nodes to PermaNodes in Colo and/or Cloud
+
+                            Dedicated  Distributed Colo hosting: Rack Mount Linux  Modified Hornet & Permanodes
+
+                                     Deployment Via Kubernetes or Docker using Terraform BluePrint
+
+                                     Node status monitoring
+
+                                     Node  End User wwallet Access Load Balancing to Smart Contract Instances from the Public Internet
+
+                            Citizen Distributed Private hosting: Virtual Linux VM Container Desktop, Server, LapTop using  Modified Hornet Node
+
+                            Citizen Access:
+
+                                     Private Devices
+
+                                     Polling Stations
+
+                            IOTA Specific Node Form Factors:
+
+                                   Modified Hornet Node Hosting
+
+                                             Polling Station Booths
+
+                                   Modified PermaNode Hosting
+
+                                            Roll-up Reporting Nodes
+
+                    Non Operating:
+
+             eVoting Requirements:
+
+             IOTA Specific:
+
+             SOCIETY2 Specific:
+
+             OpenSource Specific:
+
+            
+
+Acceptance Plan Test Cases
+
+Now that we have Requirements, what do the Test Cases look like for each Requirements, the pass/fail metrics, which make up the Acceptance Plan?
+
+
+
+
+Ok, now  we have an Acceptance Plan, Now we can Write up the Use Cases which Match those Test Cases
+
+Primary Use Cases
+
+Secondary Use Cases
+
+Exception Use Cases
+
+
+
+
+Software Architecture
+
+With the Use Cases in Place, we can now start to Detail the Software Architecture, first predicated on Technology choices which best meet the general requirements around RAASSPS 
+
+Reliability
+
+Availability
+
+Accounting
+
+Scalability
+
+Security
+
+Performance
+
+Safety (Chain of Custody/Audit, )
+
+
+
+
+Software Tools:
+
+Architectural Design : Archimate
+
+Design Principles : TOGAF       
+
+Programming Languages:
+
+               Smart Contracts : IOTA Specific
+
+      Software as a Service Template: MEAN Micro-Services Software Architecture
+
+      Open Source Software Project Use:
+
+               IOTA Specific
+
+               SOVRINTown
+
+               3rd Party
+
+       Cloud Service Specific:
+
+
+
+
+Development  & Test Resourcing Roles:  Domain Expertise and Experience, Track Record
+
+           Solutions Architect
+
+           Software Architect
+
+           Service Architect
+
+           Senior Developer
+
+           Programmers
+
+           Senior Test Engineer
+
+                Test Engineers
+
+                 Test Certification Services
+
+                         Data Integrity/Chain of Custody
+
+                         Performance
+
+                         Malicious Attack Immunity
+
+                         eVoter Validation Integrity
+
+                         Reporting Integrity
+
+                         Communications Integrity 
+
+              Documentation Writer/Manager
+
+              Code Repository Manager
+
+
+
+
+Design, Development and Test Methods and Processes 
